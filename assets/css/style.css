@@ -11301,7 +11301,7 @@ header.header-one {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: var(--color-primary); }
+  background: rgb(0, 0, 53); }
   @media only screen and (max-width: 1199px) {
     .header-two-solari.header-top {
       display: none; } }
@@ -11310,7 +11310,7 @@ header.header-one {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--color-primary); }
+    background: rgb(0, 0, 53); }
     .header-two-solari.header-top .header-top-m .left {
       display: flex;
       align-items: center;
@@ -11359,6 +11359,10 @@ header.header-one {
   display: flex;
   align-items: center;
   justify-content: space-between; }
+  .main-haeder-wrapper-h2 a.logo-area img {
+    /* max-width: 120px; */
+    width: 35%;
+  }
   @media only screen and (max-width: 575px) {
     .main-haeder-wrapper-h2 {
       padding: 0 10px; } }
@@ -11370,16 +11374,19 @@ header.header-one {
         padding: 10px 0; } }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .main-haeder-wrapper-h2 a.logo-area img {
-        max-width: 140px; } }
+        max-width: 320px; } }
     @media only screen and (max-width: 767px) {
       .main-haeder-wrapper-h2 a.logo-area img {
-        max-width: 120px; } }
+        max-width: 300px; } }
   .main-haeder-wrapper-h2 .actions-area {
     display: flex;
     align-items: center; }
     .main-haeder-wrapper-h2 .actions-area a.rts-btn {
       padding: 13px 25px;
-      margin-left: 30px; }
+      margin-left: 30px;
+      background-color: rgb(0, 0, 53);
+      color: #fff !important;
+    }
       @media only screen and (max-width: 1199px) {
         .main-haeder-wrapper-h2 .actions-area a.rts-btn {
           display: none; } }
@@ -12043,7 +12050,7 @@ nav ul {
 .main-nav-one ul li {
   position: relative; }
   .main-nav-one ul li a.nav-link {
-    color: #1F1F25; }
+    color: rgb(0, 0, 53); }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .main-nav-one ul li a.nav-link {
         font-size: 14px;
@@ -12102,7 +12109,7 @@ nav ul {
       top: 100%;
       transform: translateY(0); }
   .main-nav-one ul li:hover a.nav-link {
-    color: var(--color-primary); }
+    color: darkred; }
 
 .mobile-menu-main nav ul li.has-droupdown ul.mm-collapse li {
   margin: 0 0 !important; }
@@ -12321,7 +12328,7 @@ nav ul {
       margin-top: 15px; }
 
 .banner-solar-energy-bg {
-  background-image: url(../images/banner/07.png);
+  background-image: url(../images/banner/renewable_energy_dramatic.0.jpg);
   height: 850px;
   display: flex;
   align-items: center; }
@@ -12356,12 +12363,15 @@ nav ul {
         .banner-solar-energy-bg .banner-solar-energy-inner .button-area {
           flex-direction: column;
           align-items: flex-start; } }
-      .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn.btn-primary {
+      .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn {
         font-weight: 600;
         font-size: 16px;
-        line-height: 19px; }
+        line-height: 19px; 
+        background-color: rgb(0, 0, 53);
+        color: #fff;
+      }
       .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn.btn-primary.bg-w {
-        color: #1F1F25; }
+        color: rgb(0, 0, 53); }
         .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn.btn-primary.bg-w:hover {
           color: #fff; }
         .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn.btn-primary.bg-w::before {
@@ -13741,11 +13751,24 @@ nav ul {
       color: #1F1F25; }
 
 .rts-about-left-image-area {
+  height: 450px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding-right: 50px;
   position: relative; }
+
+  .rts-about-left-image-area .thumbnail {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  .rts-about-left-image-area .thumbnail .thumbnail-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    object-fit: fill;
+  }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .rts-about-left-image-area {
       justify-content: flex-start;
@@ -13762,11 +13785,19 @@ nav ul {
     bottom: 30px;
     display: flex;
     align-items: center; }
+    .rts-about-left-image-area .small-image-area .small-image-area-img {
+      width: 50%;
+      border-top-left-radius: 10px;
+      border-bottom-left-radius: 10px;
+    }
+    .rts-about-left-image-area .thumbnail .small-image-area p {
+      
+    }
     @media only screen and (max-width: 767px) {
       .rts-about-left-image-area .small-image-area {
         width: 70%; } }
     .rts-about-left-image-area .small-image-area p {
-      margin-left: 30px;
+      margin-left: 10px;
       font-weight: 700;
       font-size: 18px;
       line-height: 24px;
@@ -13910,7 +13941,7 @@ nav ul {
     z-index: 3;
     width: 0;
     height: 0;
-    border-left: 15px solid var(--color-primary);
+    border-left: 15px solid red;
     border-top: 8px solid transparent;
     border-bottom: 8px solid transparent;
     top: 50%;
@@ -14397,7 +14428,7 @@ nav ul {
       color: #fff; }
   .title-area-left .title {
     font-weight: 700;
-    font-size: 48px;
+    font-size: 38px;
     line-height: 62px;
     color: #1F1F25;
     margin-top: -12px; }
@@ -14423,7 +14454,7 @@ nav ul {
 .title-area-center {
   text-align: center; }
   .title-area-center p.pre {
-    color: var(--color-primary);
+    color: rgb(0, 0, 53);
     letter-spacing: 0.04em;
     font-weight: 600;
     text-transform: uppercase;
@@ -14433,7 +14464,7 @@ nav ul {
         font-size: 12px; } }
     .title-area-center p.pre span {
       padding: 3px 7px;
-      background: var(--color-primary);
+      background: rgb(0, 0, 53);
       border-radius: 3px;
       color: #fff; }
   .title-area-center .title {
@@ -15028,13 +15059,18 @@ p {
     justify-content: center;
     margin: auto;
     border-radius: 50%;
-    margin-bottom: 30px; }
+    margin-bottom: 30px; 
+    background-color: var(--color-primary);
+  }
   .rts-single-service-solar-energy .title {
     margin-bottom: 12px;
     font-size: 20px;
     text-transform: uppercase; }
   .rts-single-service-solar-energy p.disc {
     margin-bottom: 25px; }
+  .rts-single-service-solar-energy a.rts-btn {
+    background-color: rgb(0, 0, 53);
+  }
 
 .bg_dark-solar {
   background: #1B1B1B; }
@@ -15049,8 +15085,13 @@ p {
   overflow: hidden; }
   .single-service-start .image-area {
     position: relative; }
+    .single-service-start .image-area .thumbnail {
+      display: block;
+      width: 100%;
+      height: 300px; }
     .single-service-start .image-area img {
       width: 100%;
+      height: 100%;
       border-radius: 10px 10px 0 0; }
     .single-service-start .image-area .icon {
       position: absolute;
@@ -15971,6 +16012,15 @@ p {
 .rts-solar-single-product-one {
   position: relative;
   overflow: hidden; }
+  .rts-solar-single-product-one .thumbnail {
+    width: 550px;
+    height: 600px;
+  }
+  .rts-solar-single-product-one .thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
   .rts-solar-single-product-one .inner-content {
     padding: 27px 30px;
     background: #fff;
@@ -17387,10 +17437,16 @@ p {
       padding: 15px 0; } }
 .bg-cta-footer-one .logo-area-footer {
   /* background: #1f1f1f; */
+  display: block;
+  width: 170px;
+  height: 70px;
   padding: 0;
   display: block;
   border-radius: 10px 0 0 10px;
   text-align: left; }
+  .bg-cta-footer-one .logo-area-footer img {
+    width: 100%;
+  }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     .bg-cta-footer-one .logo-area-footer {
       background: none;
@@ -18365,12 +18421,15 @@ p {
       flex-direction: column;
       align-items: flex-start; } }
   .rts-single-feedback-solar-energy .client-image {
-    width: max-content; }
+    width: 80px;
+    height: 80px;
+    border-radius: 100px; }
     .rts-single-feedback-solar-energy .client-image img {
+      width: 100%;
       max-width: max-content;
       padding: 7px;
       border: 2px solid var(--color-primary);
-      border-radius: 50%; }
+      border-radius: 100%; }
   .rts-single-feedback-solar-energy .content p.para {
     color: #FFFFFF;
     font-style: italic;
@@ -19307,7 +19366,7 @@ form.appoinment-form .input-half-wrapper .single-input input {
   height: 675px; }
 
 .single-awesome-feedback-area {
-  background: #1F1F1F;
+  background: red;
   height: 450px;
   width: 450px;
   border-radius: 50%;
@@ -19320,6 +19379,10 @@ form.appoinment-form .input-half-wrapper .single-input input {
   bottom: -50px;
   left: 0;
   z-index: 5; }
+  .single-awesome-feedback-area.large {
+    background: url(../images/team/OAR76H_C_400x400.jpg) no-repeat 100% 85%;
+    background-size: cover;
+  }
   @media screen and (max-width: 1220px) {
     .single-awesome-feedback-area {
       padding: 35px;
@@ -19340,6 +19403,9 @@ form.appoinment-form .input-half-wrapper .single-input input {
     border-radius: 50%;
     top: -50px;
     z-index: -1; }
+    .single-awesome-feedback-area.small::after {
+      border: none !important;
+    }
     @media screen and (max-width: 1220px) {
       .single-awesome-feedback-area::after {
         height: 400px;
@@ -19349,11 +19415,14 @@ form.appoinment-form .input-half-wrapper .single-input input {
   .single-awesome-feedback-area .wrapper .title {
     color: #fff; }
   .single-awesome-feedback-area.small {
+    background: url(../images/team/13528794_1333768906651711_3344637778301082569_n.jpg) no-repeat 100% 85%;
+    background-size: cover;
     top: -50px;
     left: 50%;
     width: 350px;
     height: 350px;
-    padding: 40px; }
+    padding: 40px;
+  }
     @media screen and (max-width: 1628px) {
       .single-awesome-feedback-area.small {
         left: 40%;
