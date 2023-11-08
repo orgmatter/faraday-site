@@ -13843,6 +13843,8 @@ nav ul {
           margin-right: 10px; }
         .custom-nav-soalr-about li button {
           padding: 13px 20px; }
+        .custom-nav-soalr-about li button:first-child {
+          padding: 13px 18px !important; }
       }
 
 .single-about-content-solar p.disc {
