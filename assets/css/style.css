@@ -13839,8 +13839,10 @@ nav ul {
         color: #fff !important; }
 
       @media only screen and (max-width: 575px) {
+        .custom-nav-soalr-about li {
+          margin-right: 10px; }
         .custom-nav-soalr-about li button {
-          padding: 13px 20px; }
+          padding: 13px 24px; }
       }
 
 .single-about-content-solar p.disc {
