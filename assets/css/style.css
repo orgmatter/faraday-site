@@ -12337,7 +12337,7 @@ nav ul {
   align-items: center; }
 @media only screen and (max-width: 575px) {
   .banner-solar-energy-bg {
-    height: 750px !important;
+    height: 700px !important;
   }
 }
   .banner-solar-energy-bg .banner-solar-energy-inner {
@@ -12360,7 +12360,7 @@ nav ul {
           line-height: 39px; }
         .banner-solar-energy-bg .banner-solar-energy-inner p.disc {
           font-size: 18px !important; 
-          width: 250px;
+          width: 320px;
         }
       }
     .banner-solar-energy-bg .banner-solar-energy-inner p.disc {
