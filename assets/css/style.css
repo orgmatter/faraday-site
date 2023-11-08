@@ -11378,6 +11378,9 @@ header.header-one {
     @media only screen and (max-width: 767px) {
       .main-haeder-wrapper-h2 a.logo-area img {
         max-width: 300px; } }
+    @media only screen and (max-width: 575px) {
+      .main-haeder-wrapper-h2 a.logo-area img {
+        max-width: 260px; } }
   .main-haeder-wrapper-h2 .actions-area {
     display: flex;
     align-items: center; }
@@ -12348,8 +12351,13 @@ nav ul {
           line-height: 57px; } }
       @media only screen and (max-width: 575px) {
         .banner-solar-energy-bg .banner-solar-energy-inner .title {
-          font-size: 30px;
-          line-height: 49px; } }
+          font-size: 35px;
+          line-height: 39px; }
+        .banner-solar-energy-bg .banner-solar-energy-inner p.disc {
+          font-size: 18px !important; 
+          width: 250px;
+        }
+      }
     .banner-solar-energy-bg .banner-solar-energy-inner p.disc {
       font-weight: 400;
       font-size: 20px;
@@ -12361,7 +12369,9 @@ nav ul {
       gap: 30px; }
       @media only screen and (max-width: 575px) {
         .banner-solar-energy-bg .banner-solar-energy-inner .button-area {
-          flex-direction: column;
+          display: flex;
+          justify-content: space-between;
+          /* flex-direction: column; */
           align-items: flex-start; } }
       .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn {
         font-weight: 600;
@@ -13822,6 +13832,11 @@ nav ul {
       .custom-nav-soalr-about li button.active {
         background: var(--color-primary) !important;
         color: #fff !important; }
+
+      @media only screen and (max-width: 575px) {
+        .custom-nav-soalr-about li button {
+          padding: 10px 28px; }
+      }
 
 .single-about-content-solar p.disc {
   margin-bottom: 30px;
