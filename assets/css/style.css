@@ -12335,6 +12335,11 @@ nav ul {
   height: 850px;
   display: flex;
   align-items: center; }
+@media only screen and (max-width: 575px) {
+  .banner-solar-energy-bg {
+    height: 750px !important;
+  }
+}
   .banner-solar-energy-bg .banner-solar-energy-inner {
     display: flex;
     align-items: center;
