@@ -12376,6 +12376,7 @@ nav ul {
         .banner-solar-energy-bg .banner-solar-energy-inner .button-area {
           display: flex;
           justify-content: space-between;
+          gap: 20px;
           /* flex-direction: column; */
           align-items: flex-start; } }
       .banner-solar-energy-bg .banner-solar-energy-inner .button-area .rts-btn {
